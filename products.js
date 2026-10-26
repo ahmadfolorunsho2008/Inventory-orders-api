@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./Product");
 const Order = require("./Order");
-const asyncHandler = require("../asyncHandler");
+const asyncHandler = require("./asyncHandler");
 
 const router = express.Router();
 const SKU_PATTERN = /^[A-Z0-9-]+$/;
