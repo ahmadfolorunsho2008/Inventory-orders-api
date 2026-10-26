@@ -2,8 +2,8 @@
 // Uses its OWN database (name must contain "test") and wipes it first.
 const mongoose = require("mongoose");
 const app = require("./app");
-const Product = require("./models/Product");
-const Order = require("./models/Order");
+const Product = require("./Product");
+const Order = require("./Order");
 
 const TEST_URI = process.env.MONGO_URI_TEST || "mongodb://127.0.0.1:27017/inventory_smoke_test";
 
