@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const app = require("./app");
-const Product = require("./models/Product");
-const Order = require("./models/Order");
+const Product = require("./Product");
+const Order = require("./Order");
 
 const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/inventory";
 const PORT = process.env.PORT || 3000;
