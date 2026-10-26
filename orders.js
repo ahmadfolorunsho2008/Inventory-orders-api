@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Product = require("../models/Product");
-const Order = require("../models/Order");
-const asyncHandler = require("../asyncHandler");
+const Product = require("./Product");
+const Order = require("./Order");
+const asyncHandler = require("./asyncHandler");
 
 const router = express.Router();
 
